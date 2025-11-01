@@ -185,6 +185,7 @@ function initApp() {
     // ф-я для корректного отображения даты
     function formatDate(dateString) {
         const date = new Date(dateString);
+        //форматирование для отображения как в россии
         return date.toLocaleDateString('ru-RU');
     }
 
